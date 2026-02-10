@@ -22,13 +22,22 @@ header::before{
     background-position: contain;
 }
 /* NAVBAR STYLING */
-.navbar-containernav {
-    height: 120px;
-    background-color: red;
+.navbar-container {
+    height: 120px; width: 100%;
     padding: 0 148px;
-    /* margin-bottom: -120px; */
 }
 nav {
-    width: 100%;
-    height: 100px;
+    height: 80px; width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: -16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.netflix-logo {
+    fill: #E50815;
+    color: #E50815;
+    background-color: #E50815;
+    width: 148px;
 }
