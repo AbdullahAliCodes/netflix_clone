@@ -316,6 +316,42 @@ main {
     right: 20px;
 }
 
+video-section {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 70px 45px;
+    border-bottom: 10px solid #222222;
+    z-index: -1;
+    align-items: center;
+}
+
+.main-info-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-info-container p {
+    margin-top: 10px;
+}
+
+.tv-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.tv-container img {
+    z-index: 1;
+}
+.tv-container video {
+    position: absolute;
+    top: 100px;
+    z-index: 0;
+}
+
 .faq {
     width: 100%;
     background: black;
