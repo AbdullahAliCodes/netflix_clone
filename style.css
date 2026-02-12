@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url("./assets/Netflix\ Sans-fontiko/") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Netflix Sans', "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif ;
+    background-color: black;
 }
 
 .section-header-h2 {
@@ -119,6 +133,8 @@ nav {
 .form-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .form-content h3 {
     font-size: 16px;
@@ -270,21 +286,131 @@ main {
     border-bottom-left-radius: 16px;
 }
 
-
-/* Test Styles */
-
 .faq {
     width: 100%;
-    height: 100px;
-    background: pink;
+    background: black;
+    color: white;
+    margin-bottom: 64px;
 }
+.question-section {
+    height: 100%;
+    width: 100%;
+    padding-top: 16px;
+}
+.question-section ul li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+.question-section details {
+    background-color: #2d2d2d;
+    font-size: 24px
+}
+.question-section details summary {
+    height: 84px; width: 100%;
+    padding: 24px;
+    background-color: #2d2d2d;
+}
+.question-section details p {
+    padding: 24px 24px 24px 24px;
+}
+
 .form-bottom {
+    color: white;
     width: 100%;
-    height: 100px;
-    background: purple;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
 }
+.form-bottom .form-container .form-content .form input {
+    width: 1000px;
+}
+
 footer {
+    height: 562px; width: 100%;
+    padding-bottom: 96px;
+}
+.call-us {
+    color: #bbbbbb;
+    padding: 3px;
+    margin-top: 36px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
-    height: 100px;
-    background: olive;
+    margin-top: 36px;
+}
+.footer-link {
+    list-style-type: none;
+    text-decoration: underline;
+    color: #b3b3b3;
+    padding-right: 150px;
+    font-size: 14px;
+}
+.footer-link ul {
+    width: 100%;
+}
+.footer-link li {
+    margin-bottom: 20px;
+}
+
+.choose-language-container {
+    height: 32px;
+    width: 124px;
+    margin-top: 36px;
+}
+
+.choose-language {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #5e5e5e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.027);
+}
+.lang-sym {
+    color: white;
+    margin-right: 7px;
+}
+.select-container {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.select-container select {
+    width: 52px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    appearance: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.arrow-container .arrow {
+    color: white;
+    margin-top: 2px;
+    margin-left: 7px;
+}
+
+.company-name {
+    margin-top: 36px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.protected-by {
+    height: 65px;
+    margin-top: 36px;
+    color: #808080;
+    font-size: 13px;
+}
+.protected-by a {
+    color: #448ef4;
 }
