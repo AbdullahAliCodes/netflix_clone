@@ -65,14 +65,12 @@ nav {
     flex-wrap: wrap;
 }
 
-.logo-container {
-    /* margin-left: 16px; */
-}
 .logo {
     fill: #E50815;
     width: 148px;
 }
 
+/* SIGN IN BUTTON */
 .sign-in-btn-container {
     margin-left: 12px;
     height: 32px;
@@ -90,6 +88,7 @@ nav {
     
 }
 
+/* HEADER STYLING */
 .header-content {
     padding-top: 100px;
     color: white;
@@ -130,6 +129,7 @@ nav {
     font-weight: 500;
 }
 
+/* FORM INSIDE HEADER */
 .form-container {
     border-radius: 8px;
     height: 96px;
@@ -206,6 +206,9 @@ nav {
     border-radius: 10%/100px 100px 0 0;
 }
 
+/* AFTER HEADER, TRENDING NOW ONWARDS */
+
+/* STYLES THE WHOLE BOTTOM SECTION */
 main {
     background: black;
     max-width: 1920px;
@@ -218,6 +221,7 @@ main {
     width: 100%;
 }
 
+/* TRENDING NOW */
 .trending-now {
     width: 100%;
     margin-bottom: 4rem;
@@ -277,6 +281,7 @@ main {
     -webkit-text-stroke-width: 1px;
 }
 
+/* MORE REASONS TO JOIN */
 .more-reasons-to-join {
     width: 100%; height: 383px;
     background: black;
@@ -316,6 +321,7 @@ main {
     right: 20px;
 }
 
+/* VIDEO SECTION */
 video-section {
     background-color: black;
     color: white;
@@ -325,7 +331,7 @@ video-section {
     z-index: -1;
     align-items: center;
 }
-
+/* TEXT PART OF VIDEO SECTION */
 .main-info-container {
     color: white;
     display: flex;
@@ -352,6 +358,7 @@ video-section {
     z-index: 0;
 }
 
+/* FREQUENTLY ASKED QUESTIONS */
 .faq {
     width: 100%;
     background: black;
@@ -383,6 +390,7 @@ video-section {
     padding: 24px 24px 24px 24px;
 }
 
+/* FORM AT THE BOTTOM, MOSTLY SAME STYLING */
 .form-bottom {
     color: white;
     width: 100%;
@@ -394,6 +402,7 @@ video-section {
     width: 1000px;
 }
 
+/* FOOTER */
 footer {
     height: 562px; width: 100%;
     padding-bottom: 96px;
@@ -430,6 +439,7 @@ footer {
     margin-top: 36px;
 }
 
+/* LANGUAGE SELECT */
 .choose-language {
     height: 100%;
     width: 100%;
