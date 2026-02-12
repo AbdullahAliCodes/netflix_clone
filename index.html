@@ -51,14 +51,17 @@
         </div>
     </header>
 
+    <!-- curve divider -->
     <section class="curve-container">
         <div class="curved-line"></div>
     </section>
 
     <main>
 
+        <!-- main content below header, from trending now onwards -->
         <div class="main-content">
 
+            <!-- trending now section (grid, with imgs and numbers)-->
             <section class="trending-now">
                 <h2 class="section-header-h2">Trending Now</h2>
                 <div class="movies-container">
@@ -119,6 +122,7 @@
                 </div>
             </section>
     
+            <!-- more reasons to join section (cards) -->
             <section class="more-reasons-to-join">
                 <h2 class="section-header-h2">More Reasons to Join</h2>
                 <div class="reasons-cards">
@@ -179,14 +183,14 @@
 
             <section class="video-section">
                 <div class="main-info-container">
-                    <h1 class="card-title">Enjoy on your TV.</h1>
+                    <h2 class="section-header-h2">Enjoy on your TV.</h2>
                     <p class="card-subtitle">
                         Watch on Smart TVs , Playstation, Xbox, Chromecast, Apple TV, Blu-ray
                         players, and more.
                     </p>
                 </div>
             
-                <!-- In line Video -->
+                <!-- TV video section -->
                 <div class="tv-container">
                 <img
                     src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
@@ -201,6 +205,7 @@
                 </div>
             </section>
         
+            <!-- frequently asked questions section using HTML <details> -->
             <section class="faq">
                 <h2 class="section-header-h2">Frequently Asked Questions</h2>
                 <div class="question-section">
@@ -249,6 +254,7 @@
             
             </section>
         
+            <!-- form again, same formatting as above -->
             <section class="form-bottom">
                 <div class="form-container">
                     <div class="form-content">
@@ -264,12 +270,13 @@
                 </div>
             </section>
         
+            <!-- footer containing  some text, footer list and langauge select-->
             <footer>
                 <div class="call-us">
                     Questions? Call 0800 100 046
                 </div>
                 <div class="footer-links">
-
+                    <!-- footer lists, seperated in to 4 columns using flex-direction: column -->
                     <ul class="footer-link">
                         <li>FAQ</li>
                         <li>Investor Relations</li>
@@ -302,10 +309,13 @@
                 </div>
         
                 <div class="choose-language-container">
+                    <!-- langauge select - 3 parts -->
                     <div class="choose-language">
+                        <!-- 1. language symbol -->
                         <div class="lang-sym-container">
                             <svg viewBox="0 0 16 16" width="16" height="16" data-icon="LanguagesSmall" data-icon-id=":R135daqilbanb96:" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" class="lang-sym"><path fill="currentColor" fill-rule="evenodd" d="M10.77 5.33 10.5 6 9.34 8.94l-.57 1.44L7.33 14h1.78l.73-1.97h3.58l.74 1.97H16l-3.43-8.67zm-.15 4.6-.24.63h2.51l-1.26-3.35zm-1.1-5.09.1-.19h-3.2V2h-1.5v2.65H.55V6h3.77A11 11 0 0 1 0 10.43c.33.28.81.8 1.05 1.16 1.5-.91 2.85-2.36 3.88-4.02v5.1h1.49V7.52q.6.95 1.33 1.8l.57-1.43a12 12 0 0 1-1.34-1.9h2.09z" clip-rule="evenodd"></path></svg>
                         </div>
+                        <!-- 2. actual select -->
                         <div class="select-container">
                             <select name="langauge" id="language">
                                 <option>English</option>
@@ -313,6 +323,7 @@
                                 <option>Orange Language</option>
                             </select>
                         </div>
+                        <!-- 3. dropdown arrow -->
                         <div class="arrow-container">
                             <svg viewBox="0 0 16 16" width="16" height="16" data-icon="CaretDownSmall" data-icon-id=":R175daqilbanb96:" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" class="arrow"><path fill="currentColor" fill-rule="evenodd" d="M11.6 6.5c.15 0 .22.18.12.28l-3.48 3.48a.33.33 0 0 1-.48 0L4.28 6.78a.17.17 0 0 1 .12-.28z" clip-rule="evenodd"></path></svg>
                         </div>
