@@ -385,8 +385,9 @@ video-section {
 }
 .question-section details {
     background-color: #2d2d2d;
-    font-size: 24px
+    font-size: 24px;
 }
+
 .question-section details summary {
     height: 84px; width: 100%;
     padding: 24px;
@@ -394,6 +395,18 @@ video-section {
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.question-section details[open] summary {
+    border-bottom: 1px solid black;
+}
+.question-section details .plus-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.question-section details[open] .plus-icon{
+    transform: rotate(-45deg);
 }
 .question-section details p {
     padding: 24px 24px 24px 24px;
